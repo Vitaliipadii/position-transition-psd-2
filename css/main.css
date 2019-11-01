@@ -1,0 +1,143 @@
+body {
+    background: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+
+}
+
+.clear {
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+}
+main {
+    max-width: 100%;
+}
+.logo h1 {
+    text-align: center;
+    color: #393939;
+    text-transform: uppercase;
+    font-size: 34px;
+    padding: 100px 0 0 0;
+}
+.logo h1::after {
+    content: '';
+    border-bottom: 4px solid #DFDCDC;
+    width: 46px;
+    display: block;
+    margin: 0 auto;
+    padding: 18px 0 0 0;
+}
+header .text-logo {
+    display: flex;
+    justify-content: center;
+    color: #393939;
+    font-size: 17px;
+    line-height: 26px;
+    padding: 48px 30%;
+}
+.wrapper .column {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+.wrapper .cols {
+    margin: 15px 15px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.column .account {
+    position: absolute;
+    top: 115px;
+    left: 63px;
+    display: flex;
+    flex-direction: row;
+}
+.account .block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #DFDCDC;
+    font-size: 24px;
+    border: 1px solid rgb(13, 208, 230);
+    background-color: rgb(13, 208, 230);
+    width: 42px;
+    height: 42px;
+    margin: 0 2px;
+}
+.account .block:hover {
+    color: azure;
+    background-color: rgb(5, 131, 145);
+    transform: scale(1.4);
+    transition-duration: 0.5s;
+}
+.account .block:active {
+    color: azure;
+    background-color: rgb(12, 93, 102);
+    transform: scale(1.6);
+    transition-duration: 0.5s;
+}
+.wrapper .text {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+.text h2 {
+    color: #3E221F;
+}
+
+.text p {
+    color: #775F59;
+}
